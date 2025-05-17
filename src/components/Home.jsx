@@ -17,13 +17,13 @@ const Home =()=>{
     console.log(data)
     return (
         <div>
-            <div className="row  bg-light">
-                <div className="col-md-8">
+            <div className="row d-flex bg-light">
+                <div className="col-md-6">
                     <nav className="navbar px-3 mb-3 justify-content-center">
                         <a className="navbar-brand text-danger mx-auto" href="#">Meetup</a>
                     </nav>
                 </div>
-                <div className="col-md-8">
+                <div className="col-md-6">
                     <label htmlFor="">
                         <input type="text" />
                     </label>
