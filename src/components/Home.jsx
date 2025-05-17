@@ -17,7 +17,18 @@ const Home =()=>{
     console.log(data)
     return (
         <div>
-            <Navbar/>
+            <div className="row  bg-light">
+                <div className="col-md-8">
+                    <nav className="navbar px-3 mb-3 justify-content-center">
+                        <a className="navbar-brand text-danger mx-auto" href="#">Meetup</a>
+                    </nav>
+                </div>
+                <div className="col-md-8">
+                    <label htmlFor="">
+                        <input type="text" />
+                    </label>
+                </div>
+            </div>
             <div className="container m-4">
                 <div className="d-flex justify-content-between align-items-center mb-4">
                     <h2 className="fw-bold">Meetup Events</h2>
@@ -31,6 +42,7 @@ const Home =()=>{
                         <option value="All">Select Event Type</option>
                         <option value="Online">Online</option>
                         <option value="Offline">Offline</option>
+                        <option value="All" >Both</option>
                     </select>
                 </div>
                 <div className="row g-4">
