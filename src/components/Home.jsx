@@ -39,7 +39,6 @@ const Home =()=>{
                         <option value="Offline">Offline</option>
                     </select> */}
                     <select  className="form-select w-auto" value={selectedType} onChange={handleChange}>
-                        <option value="All">Select Event Type</option>
                         <option value="Online">Online</option>
                         <option value="Offline">Offline</option>
                         <option value="All" >Both</option>
